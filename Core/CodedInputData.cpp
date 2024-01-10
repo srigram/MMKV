@@ -20,6 +20,7 @@
 
 #include "CodedInputData.h"
 #include "PBUtility.h"
+#include <cstring>
 #include <stdexcept>
 
 #ifdef MMKV_APPLE
