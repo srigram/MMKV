@@ -39,8 +39,8 @@ add_subdirectory(../../Core Core)
 add_library( # Sets the name of the library.
              mmkv
 
-             # Sets the library as a shared library.
-             SHARED
+             # Sets the library as a static library.
+             STATIC
 
              # Provides a relative path to your source file(s).
              libmmkv.cpp
@@ -79,5 +79,5 @@ target_link_libraries( # Specifies the target library.
                        # included in the NDK.
                        #          ${log-lib}
                        core
-        pthread
+        # pthread
         )
